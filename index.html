@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi Fitness</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<style>
+    /* CSS Reset  */
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/image1.jpg');
+        color: white;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid white; */
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        text-align: center;
+    }
+
+    .left img {
+        width: 120px;
+
+    }
+
+    .left div {
+        line-height: 20px;
+        font-size: 20px;
+    }
+
+    .mid {
+        /* border: 2px solid whitesmoke; */
+        display: block;
+        width: 41%;
+        margin: 25px auto;
+        font-size: 18px;
+
+
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid whitesmoke; */
+        position: absolute;
+        right: 12px;
+        top: 33px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: red;
+
+    }
+
+    .btn {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        border: 2px solid grey;
+        padding: 2px 14px;
+        border-radius: 10px;
+        font-size: 17px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        color: red
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 118px 43px;
+        padding: 62px 54px;
+        width: 32%;
+        border-radius: 22px
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        width: 407px;
+        border: 2px solid black;
+        padding: 8px;
+        margin: 3px auto;
+        font-size: 16px;
+        border-radius: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+   .container h1{
+        text-align: center;
+        font-size: 23px;
+    }
+    .container button
+    {
+        display: block;
+        width : 87%;
+        margin: auto;
+
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>Rishi Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="about_us.html">About us</a></li>
+                <li><a href="#">Fitness Calculator</a> </li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email US</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join the best gym of Delhi now!</h1>
+        <form action="nonaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Phone number">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter your Email id">
+            </div>
+            
+
+            
+
+            <button class="btn"> Submit </button>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
